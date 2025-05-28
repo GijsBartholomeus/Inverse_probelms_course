@@ -10,9 +10,8 @@ In this project we explore a toy problem of two distinct reconstruction strategi
 
 The minimisation problem formulated in the report is as follows:
 
-$$
-\min_{u} \left\{ \| u - u_0 \|^2 + \lambda\, \mathcal{L}_{\text{CNN}}(u) \right\}
-$$
+$\min_{u} \left\{ \| u - u_0 \|^2 + \lambda\, \mathcal{L}_{\text{CNN}}(u) \right\}$
+
 
 Here, u is the harmonised image, u₀ represents the original image either from Algo A or Algo B, 𝓛₍CNN₎(u) is the CNN classification loss, and λ is a regularisation parameter.
 
