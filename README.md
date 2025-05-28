@@ -10,7 +10,7 @@ In this project we explore a toy problem of two distinct reconstruction strategi
 
 The minimisation problem formulated in the report is as follows:
 
-![equation](https://latex.codecogs.com/svg.image?$$\min_{u}\left\{\|u-u_0\|^2&plus;\lambda\,\mathcal{L}_{\text{CNN}}(u)\right\}$$)
+![equation](https://latex.codecogs.com/svg.image?$$\min_{u}\left{\|u-u_0\|^2&plus;\lambda\,\mathcal{L}_{\text{CNN}}(u)\right}$$)
 
 
 
