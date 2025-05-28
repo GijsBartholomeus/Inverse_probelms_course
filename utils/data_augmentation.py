@@ -1,6 +1,7 @@
 """A file that contains functions that apply data augmentations.
 
 1. `extract_random_patches`: Extracts random patches from an image.
+2. `random_flip_rotate_np`: Applies random flips and rotations to a NumPy array image.
 """
 import numpy as np
 

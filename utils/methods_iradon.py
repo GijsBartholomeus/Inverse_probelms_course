@@ -1,4 +1,7 @@
-""""""
+"""
+This file contains the implementation of two algorithms for image reconstruction from sinograms.
+Algoritme A uses a Tikhonov prior with L2 data fidelity, while Algoritme B uses a TV prior with Poisson likelihood.
+"""
 import torch, deepinv as dinv
 from pathlib import Path
 import matplotlib.pyplot as plt

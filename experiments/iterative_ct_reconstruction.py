@@ -1,23 +1,4 @@
-"""
-iterative_ct_reconstruction.py  ✨ bug‑fix
-========================================
-A minimal but complete teaching implementation of three reconstruction
-algorithms used throughout the Inverse Problems course.  This revision fixes a
-**broadcasting error** in `huber_grad`/`tv_grad` that appeared on NumPy ≥ 1.26
-and caused `ValueError: operands could not be broadcast together`.
-
-Algorithms
-----------
-1. **Filtered Back‑Projection (FBP)** – analytical baseline.
-2. **PWLS‑Huber** – hybrid IR approximating Philips *iDose⁴*.
-3. **MBIR‑TV** – model‑based IR approximating Philips *IMR*.
-
-The file contains no outside dependencies beyond *NumPy*, *SciPy* (for
-`iradon`) and *scikit‑image* (for `radon/iradon`).
-"""
-
 from __future__ import annotations
-
 import numpy as np
 from math import sqrt
 from typing import Optional
